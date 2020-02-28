@@ -1,0 +1,64 @@
+
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/modernTimeline.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.12.1/TweenMax.min.js"></script>
+</head>
+
+
+<body translate="no">
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- <link rel="stylesheet" type="text/css" href="css/modernTimeline.css"> -->
+
+<div onclick="location.href = '/'" class="button_container">
+<p class="description"></p>
+<button class="btn"><span>Home!</span></button>
+</div>
+
+<!-- <div class="container">
+  <img src="assets/Headshot.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div> -->
+
+<!-- Scripts -->
+<script src="particles.js"></script>
+<script src="app.js"></script>
+<script src="js/button.js"></script>
+
+<div id="timeline-content">
+<div class="pp">
+  <h1>Timeline</h1>
+</div>
+
+<ul class="timeline">
+<li class="event" data-date="2020">
+<h3>RBC Capital Markets</h3>
+<p>Algorithmic and Quantitative Trading</p>
+</li>
+<li class="event" data-date="2019">
+<h3>RBC Capital Markets</h3>
+<p>Equity Derivatives Quant</p>
+</li>
+<li class="event" id="date" data-date="2018">
+<h3>McMaster University</h3>
+<p></p> <p>Master of Science - Computational Finance</p>
+</li>
+<li class="event" id="date" data-date="2013 - 2017">
+<h3>Queen's University</h3>
+<p></p> <p>Bachelor of Applied Science - Engineering Physics</p>
+</li>
+
+</ul>
+</div>
+
+</body>
