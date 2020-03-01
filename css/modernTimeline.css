@@ -155,7 +155,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 100;
-  background: #456990;
+  background: #94a4b5;
   color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;
@@ -359,7 +359,7 @@ pp{
   top: 0;
   height: 490%;
   width: 140%;
-  background: #004ffc;
+  background: #c5dffa;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
