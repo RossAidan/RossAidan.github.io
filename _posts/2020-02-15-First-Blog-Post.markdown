@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Blog Post"
+title:  "My First Blog Post"
 date:   2020-02-15 18:04:56 -0500
 thumbnail: /assets/albatross.png
 categories: About Me
